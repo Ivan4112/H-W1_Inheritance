@@ -37,7 +37,7 @@ public class Main {
                    System.out.println("Input cat's name & age");
                    nameAnimal = scanner.next();
                    ageAnimal = scanner.nextInt();
-                   Animal cat = new Dog(nameAnimal, ageAnimal); cat.voice();
+                   Animal cat = new Cat(nameAnimal, ageAnimal); cat.voice();
                    animals.add(cat); break;
                case 0: break;
            }
